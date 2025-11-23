@@ -19,7 +19,7 @@ import React from "react";
 
 export function High2Landing() {
   const whatsappLink =
-    "https://wa.me/55S47988034149?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20high2%20e%20quero%20falar%20sobre%20um%20projeto.";
+    "https://wa.me/5547988034149?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20high2%20e%20quero%20falar%20sobre%20um%20projeto.";
 
   function scrollToId(id: string) {
     const el = document.getElementById(id);
@@ -443,8 +443,8 @@ export function High2Landing() {
                     {index === 0
                       ? "Escalável e multi-tenant"
                       : index === 1
-                      ? "UX focada em conversão"
-                      : "Insights em tempo real"}
+                        ? "UX focada em conversão"
+                        : "Insights em tempo real"}
                   </span>
                   <span className="inline-flex items-center gap-1 text-blue-300">
                     Detalhes sob consulta
